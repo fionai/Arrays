@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 void main()
@@ -8,11 +8,11 @@ void main()
 	int arr[N] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 	int shift, first;
 
-	cout << "ÑÄÂÈÃ ÌÀÑÑÈÂÀ\n\nÌàññèâ ";
+	cout << "Ð¡Ð”Ð’Ð˜Ð“ ÐœÐÐ¡Ð¡Ð˜Ð’Ð\n\nÐœÐ°ÑÑÐ¸Ð² ";
 	for (int i = 0; i < N; i++)
 		cout << arr[i] << " ";
 
-	cout << "\nÂâåäèòå âåëè÷èíó ñäâèãà: ";
+	cout << "\nÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÐ»Ð¸Ñ‡Ð¸Ð½Ñƒ ÑÐ´Ð²Ð¸Ð³Ð°: ";
 	cin >> shift;
 
 	for (int i = 0; i < shift; i++)

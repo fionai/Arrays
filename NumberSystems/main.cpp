@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 void main()
@@ -10,8 +10,8 @@ void main()
 	int num2[LENGTH2] = {};
 	int num16[LENGTH16] = {};
 
-	cout << "ÑÈÑÒÅÌÛ Ñ×ÈÑËÅÍÈß\n\n";
-	cout << "Ââåäèòå ÷èñëî: ";
+	cout << "Ð¡Ð˜Ð¡Ð¢Ð•ÐœÐ« Ð¡Ð§Ð˜Ð¡Ð›Ð•ÐÐ˜Ð¯\n\n";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
 	cin >> num10;
 
 	dub = num10;
@@ -23,7 +23,7 @@ void main()
 		len++;
 	}
 
-	cout << num10 << " â äâîè÷íîé ñèñòåìå èñ÷èñëåíèÿ ðàâíî ";
+	cout << num10 << " Ð² Ð´Ð²Ð¾Ð¸Ñ‡Ð½Ð¾Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ðµ Ð¸ÑÑ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ Ñ€Ð°Ð²Ð½Ð¾ ";
 	for (int i = 0; i < len; i++)
 		cout << num2[len - i - 1];
 
@@ -36,7 +36,7 @@ void main()
 		len++;
 	}
 
-	cout << endl << num10 << " â øåñòíàäöàòåðè÷íîé ñèñòåìå èñ÷èñëåíèÿ ðàâíî ";
+	cout << endl << num10 << " Ð² ÑˆÐµÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÐµÑ€Ð¸Ñ‡Ð½Ð¾Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ðµ Ð¸ÑÑ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ Ñ€Ð°Ð²Ð½Ð¾ ";
 	for (int i = 0; i < len; i++)
 	{
 		if (num16[len - i - 1] < 10)		cout << num16[len - i - 1];
